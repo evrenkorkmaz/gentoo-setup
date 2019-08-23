@@ -29,4 +29,14 @@ Run the scrpit after the copy.
 ```
 ./gentoo-setup.sh
 ```
-Script first a ask some question 
+Script first a ask some question:
+- Root password
+- User name (Script automaticly create a use. You just enter a user name)
+- User password
+- Host name 
+- Select profile 
+
+Profile selection: When profile selection part u can see profile list. First option is Gentoo server (non-Gui). Second profile for the desktop usage. **Plaese check all profile.**
+
+- Lastly select a mirror after donwload stage3 tarball.
+- And wait...
