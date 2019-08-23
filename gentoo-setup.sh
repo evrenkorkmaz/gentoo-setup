@@ -6,16 +6,16 @@
 # source : https://wiki.gentoo.org/wiki/Handbook:AMD64
 #! /bin/bash
 
-echo "enter root password"
+echo "Enter root password"
 read rootpasswd
-echo "enter username "
+echo "Enter username "
 read user
-echo "user password"
+echo "Enter user password"
 read userpasswd
-echo enter hostname for gentoo machine
+echo "Enter hostname for gentoo machine"
 read hostname
 
-
+#profile selection
 echo Available profile symlink targets:
 echo " [1]   default/linux/amd64/17.1 * "
 echo " [2]   default/linux/amd64/17.1/desktop "
