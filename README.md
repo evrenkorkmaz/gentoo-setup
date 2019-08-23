@@ -21,12 +21,12 @@ Gentoo has not a packet manager yet. Because of we can't clone the script on Gen
 But Gentoo has a shh service. If u want try to copy script with **scp** command
 
 
-
-
-restart ssh service. Run this command on gentoo machine 
+If u want to use ssh first restart ssh service. Run this command on gentoo machine 
 ```
 /etc/init.d/sshd restart
 ```
-
-
-
+Run the scrpit after the copy.
+```
+./gentoo-setup.sh
+```
+Script first a ask some question 
