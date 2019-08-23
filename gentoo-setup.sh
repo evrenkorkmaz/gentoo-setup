@@ -4,6 +4,7 @@
 # When starting the script, user must the enter a root password, user name, user password, host name and select profile.
 # End of the downloading stage3 tarball, just select a mirror. After that script automaticly setup gentoo.
 # source : https://wiki.gentoo.org/wiki/Handbook:AMD64
+
 #! /bin/bash
 
 echo "Enter root password"
@@ -21,7 +22,7 @@ echo " [1]   default/linux/amd64/17.1 * "
 echo " [2]   default/linux/amd64/17.1/desktop "
 echo " [3]   default/linux/amd64/17.1/desktop/gnome "
 echo " [4]   default/linux/amd64/17.1/desktop/kde "
-echo "enter a profile"
+echo "Enter a profile"
 read profile
 
 
